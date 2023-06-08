@@ -198,6 +198,7 @@
             this.pBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox4.TabIndex = 3;
             this.pBox4.TabStop = false;
+            this.pBox4.Click += new System.EventHandler(this.pBox_Click);
             // 
             // pBox3
             // 
@@ -209,6 +210,7 @@
             this.pBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox3.TabIndex = 2;
             this.pBox3.TabStop = false;
+            this.pBox3.Click += new System.EventHandler(this.pBox_Click);
             // 
             // pBox2
             // 
@@ -220,6 +222,7 @@
             this.pBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox2.TabIndex = 1;
             this.pBox2.TabStop = false;
+            this.pBox2.Click += new System.EventHandler(this.pBox_Click);
             // 
             // pBox1
             // 
@@ -231,6 +234,7 @@
             this.pBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBox1.TabIndex = 0;
             this.pBox1.TabStop = false;
+            this.pBox1.Click += new System.EventHandler(this.pBox_Click);
             // 
             // label1
             // 
